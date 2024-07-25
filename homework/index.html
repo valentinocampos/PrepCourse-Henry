@@ -7,26 +7,24 @@
       <style>
         h3 {color:rgb(132, 132, 238)}
       </style>
-      <img src="white-passenger-airplane-flying-sky-600nw-2480003421.webp" width="50%">
-      <h1> Ingresa los datos de los pasajeros</h1>
+      <link rel="stylesheet" type="text/css" href="./estilos.css" />
    </head>
 
    
 <body>
-
+<div id="firstTittle">
+    <header><h1>Ingresa los datos de los pasajeros</h1></header>
     <div>
         <p>Los campos presentados en el formulario son obligatorios</p>
     </div>
-
+</div>
     <br>
 
-    <div>
-        <h3>Datos de la agencia</h3>
-        <hr />
+    <form>
+    <div class="form1">
+        <div>
+            <h3>Datos de la agencia</h3>
         </div>
-
-        
-      <form>
         <div>
             <label for="NombreAgencia">Nombre de la agencia:  </label>
             <input type="text" name="NombreAgencia" placeholder="Complete este campo">
@@ -59,12 +57,13 @@
             <label for="Email">Email:  </label>
             <input type="text" name="Email" placeholder="UsuarioMail@gmail.com">
         </div>
-
-        <br>
-
+    </div>  <!-- FIN DE PRIMERL PRIMER BLOQUE DEL FORM -->
+        
+    <br>
+        
+    <div class="form2">
         <div>
             <h3>Pasajero 1 (Adulto)</h3>
-            <hr />
         </div>
         <div>
             <label for="NombrePasajero">Nombre:  </label>
@@ -91,7 +90,14 @@
             <label for="DNI">Número de documento:  </label>
             <input type="number" name="DNI" placeholder="12.123.123">
         </div>
-      </form>
 
+        <br>
+
+        <div>
+            <label for="Submit"></label>
+            <input type="submit" name="Submit" value="Enviar" class="sendButton">
+        </div>
+    </div>  <!-- FIN DE PRIMERL SEGUNDO BLOQUE DEL FORM -->
+    </form>
    </body>
 </html>

@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    background-image: url("airport-w6v47yjhxcohsjgf.jpg");
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+}
+
+.sendButton{
+    width: 10em;
+    height: 3em;
+}
+.sendButton:hover{
+    background-color: rgb(192, 192, 204);
+}
